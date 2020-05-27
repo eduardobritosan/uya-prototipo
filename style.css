@@ -1,3 +1,28 @@
+body{
+    background-color: whitesmoke;
+    min-height: 800px;
+    margin-bottom: 100px;
+}
+
+.color-a{
+    background-color: #183732;
+}
+
+.color-b{
+    background-color: #2B9C81;
+    color: white;
+}
+
+.roomly-title{
+    margin-top: 0em;
+    padding: 0.5em;
+}
+
+.breadcrumb{
+    height: 50px;
+    padding-left: 1em;
+}
+
 @media (min-width: 576px) {
     body{
         padding-left: 4px;
