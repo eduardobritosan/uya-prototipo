@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="eebritosa, david, sergio">
+    <meta name="description" content="Pagina inicial del proyecto final room.ly">
+    <meta name="keywords" content="banco, tiempo, app, html5, roommate, companeros, piso, time, bank">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="style.css" rel="stylesheet">
+     <link rel="stylesheet" href="formulario.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script defer src="index.js"></script>
+     <script defer src="formulario.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+             
+    <title>room.ly</title>
+</head>
+<body >
+
+<a class="achor" id="home" aria-hidden="true"></a>
+<nav class="color-b" role="navigator">
+    <div class="nav-wrapper">
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light btn">Boton 1</a></li>
+            <li><a class="waves-effect waves-light btn">Boton 2</a></li>
+        </ul>
+    </div>
+</nav>
+
+<ul id="nav-mobile" class="sidenav">
+    <li><a href="">Quienes somos</a></li>
+    <li><a href="">Contacto</a></li>
+</ul>
+
+<nav aria-label="Breadcrumb" class="color-a">
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="?" class="breadcrumb">Homepage</a>
+      </div>
+    </div>
+  </nav>
+
+<section>
+    
+  <div class="container">
+    
+        <form class="col s12" id="reg-form">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="nombre" type="text" class="validate" required>
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="apellido" type="text" class="validate" required>
+              <label for="apellido">Apellido</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate" required>
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="contrasena" type="password" class="validate" minlength="6" required>
+              <label for="contraseña">Password</label>
+            </div>
+          </div>
+    
+            <div class="input-field col s6">
+              <button class="btn btn-large btn-register waves-effect waves-light" id="registrar" type="submit" name="action">Register</button>
+            </div>
+          </div>
+        </form>
+    </div>
+</section>
+    
+
+
+
+</body>
+<footer class="page-footer color-a" style="position:fixed;bottom:0;left:0;width:100%;">
+    <p>Realizado por: Eduardo Brito, David Rodriguez y Sergio Torres</p>
+    <p><a href="https://github.com/eduardobritosan/uya-practicas/tree/master">Link de la practica.</a></p>
+</footer>
+</html>
