@@ -1,7 +1,5 @@
 body{
     background-color: whitesmoke;
-    min-height: 800px;
-    margin-bottom: 100px;
 }
 
 .color-a{
@@ -13,6 +11,9 @@ body{
     color: white;
 }
 
+.btn:hover{
+    background-color: #3dd1d1;
+}
 .roomly-title{
     margin-top: 0em;
     padding: 0.5em;
@@ -23,10 +24,20 @@ body{
     padding-left: 1em;
 }
 
-@media (min-width: 576px) {
+.left-pad{
+    padding-left: 0.5em;
+}
+
+p{
+    padding-left: 0.5em;
+}
+
+@media (min-width: 370px) {
     body{
         padding-left: 4px;
         padding-right: 4px;
+        min-height: 800px;
+        margin-bottom: 150px;
     }
 }
 
