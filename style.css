@@ -91,11 +91,11 @@ p{
   .container_tabla_precio .precio_tabla_header {
     padding: 20px;
     font-size: 20px;
-    color: #909090;
-    background: #e0e0e0;
+    color: #ffffff;
+    background: #2b9c81;
   }
   .container_tabla_precio .precio_tabla_price {
-    color: #66cccc;
+    color: #3dd1d1;
     padding: 20px;
     margin: auto;
     font-size: 40px;
@@ -103,7 +103,7 @@ p{
   }
   .container_tabla_precio .precio_tabla_button {
     display: block;
-    background: #66cccc;
+    background: #3dd1d1;
     text-decoration: none;
     padding: 20px;
     color: white;
@@ -115,7 +115,7 @@ p{
 
   .container_tabla_precio .precio_tabla_list {
     padding: 20px;
-    color: #a0a0a0;
+    color: #2b9c81;
   }
   .container_tabla_precio .precio_tabla_list li {
     padding: 15px;
