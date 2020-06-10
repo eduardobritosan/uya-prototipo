@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+});
 
   var firebaseConfig = {
     apiKey: "AIzaSyAaoAO5vWuXL-QeULhsdoW0EVryx4csD0Y",
