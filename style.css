@@ -92,7 +92,7 @@ p{
     padding: 20px;
     font-size: 20px;
     color: #ffffff;
-    background: #2b9c81;
+    background-color: #2b9c81;
   }
   .container_tabla_precio .precio_tabla_price {
     color: black;
@@ -103,7 +103,7 @@ p{
   }
   .container_tabla_precio .precio_tabla_button {
     display: block;
-    background: #2b9c81;
+    background-color: #2b9c81;
     text-decoration: none;
     padding: 20px;
     color: white;
