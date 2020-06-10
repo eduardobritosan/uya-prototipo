@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+});
+
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
